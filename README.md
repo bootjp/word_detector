@@ -17,4 +17,4 @@ If a word file changes frequently, you should create a inverted index.
 
 ## how to use 
 
-WORD_FILE=/path/to/*word.txt TARGET_FILE=/path/to/*log.txt go run cli/main.go
+WORD_FILE=/path/to/word.txt TARGET_FILE=/path/to/log.txt go run cli/main.go
