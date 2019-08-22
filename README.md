@@ -10,6 +10,6 @@ When migrating a database, I wanted to determine whether all query logs included
 
 ## method
 
-Here we expand the word on-memory and search in a single thread
-If the log file is larger, it should be multi threaded.
-Inverted indexes should be created when word files change frequently.
+Here we expand the word into on-memory and search in a single thread.
+If the log file is large, it should be multi threaded.
+If a word file changes frequently, you should create a inverted index.
